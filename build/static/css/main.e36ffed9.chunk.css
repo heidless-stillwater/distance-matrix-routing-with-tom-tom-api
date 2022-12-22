@@ -1,0 +1,2 @@
+body{display:flex;justify-content:center}.app{height:600px;width:100vh}.map{height:100%;width:100%}.marker{background-image:url(https://i.imgur.com/oz3r3Wq.png);background-color:#ff0;border-radius:11px;border:3px solid #2f4f4f}.marker,.marker-delivery{background-size:cover;width:22px;height:22px}.marker-delivery{background-image:url(https://i.imgur.com/cIooqnp.png);border-radius:15px;border:3px solid #2f4f4f}
+/*# sourceMappingURL=main.e36ffed9.chunk.css.map */
