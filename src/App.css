@@ -1,12 +1,24 @@
+* {
+  font-family: "Fira Sans", sans-serif;
+}
+
 body {
   display: flex;
   justify-content: center;
+  background-color: #666;
 }
 
 .app {
-  height: 600px;
-  width: 100vh;
+  background-color:#111;
+  display: block;
+  height: 500px;
+  width: 80vh;
+  margin: 0px auto;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8), inset 6px 6px 12px rgba(255, 255, 255, 0.4);
 }
+
 .map {
   height: 100%;
   width: 100%;
@@ -14,13 +26,13 @@ body {
 
 .marker {
   /* background-image: url('https://i.imgur.com/oz3r3Wq.png'); */
-  background-image: url('c86erz-logo.png');
+  background-image: url('c86erz-roundel.png');
   background-size: cover;
-  width: 22px;
-  height: 22px;
-  background-color: yellow;
+  width: 30px;
+  height: 30px;
+  /* background-color: yellow; */
   border-radius: 11px;
-  border: solid 3px darkslategray;
+  border: solid 0px darkslategray;
 }
 
 .marker-delivery {
@@ -30,4 +42,18 @@ body {
   height: 22px;
   border-radius: 15px;
   border: solid darkslategrey 3px;
+}
+
+.search-bar {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;;
+  justify-content: center;
+  align-items: center;
+  color: #ddd;
+  background-color: #E52673;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
+  border-radius: 16px;
+  box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8), inset 6px 6px 12px rgba(255, 255, 255, 0.4);
+  padding-bottom: 20px;
 }
